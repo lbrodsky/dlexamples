@@ -1,2 +1,4 @@
-# dlexamples
-Examples of deep learning codes
+# Deep Learning examples
+
+- image augmentation
+- GPU computation 
