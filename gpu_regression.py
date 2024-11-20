@@ -9,8 +9,9 @@ import time
 import matplotlib.pyplot as plt
 
 # CUDA
-device = torch.cuda.is_available()
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(device)
+
 ## Get Id of default device
 if device == 'cuda':
     torch.cuda.current_device()
